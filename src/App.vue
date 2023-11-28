@@ -1,7 +1,7 @@
 <script setup>
 import HeaderComponent from './components/HeaderComponent.vue'
 // import FooterComponent from './components/HeaderComponent.vue'
-import HeaderComponentcopy from './components/HeaderComponentcopy.vue'
+
 
 </script>
 
@@ -25,7 +25,7 @@ import HeaderComponentcopy from './components/HeaderComponentcopy.vue'
 
     <body>
       <HeaderComponent></HeaderComponent>
-      <router-view />
+      <router-view class="text-white p-10"/>
     </body>
 
     <!-- <footer>

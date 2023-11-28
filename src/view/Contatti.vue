@@ -1,7 +1,7 @@
 <template>
-    <div class="text-white p-20">
+    <div>
 
-      <h1 class="p-8">Contatti</h1>
+      <h1 class="p-8">{{this.$route.name}}</h1>
 
       <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-2">
       
