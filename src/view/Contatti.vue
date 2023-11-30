@@ -15,15 +15,9 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi accusantium alias veritatis, commodi placeat omnis sint minima porro et quia nulla autem vitae, rerum est corrupti cum eaque. Placeat
       </div>
       <div class="p-6 bg-black/50 text-white text-center  flex items-center rounded-md">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi accusantium alias veritatis, commodi placeat omnis sint minima porro et quia nulla autem vitae, rerum est corrupti cum eaque. Placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi accusantium alias veritatis, commodi placeat omnis sint minima porro et quia nulla autem vitae, rerum est corrupti cum eaque. Placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi accusantium alias veritatis, commodi placeat omnis sint minima porro et quia nulla autem vitae, rerum est corrupti cum eaque. Placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi accusantium alias veritatis, commodi placeat omnis sint minima porro et quia nulla autem vitae, rerum est corrupti cum eaque. Placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi accusantium alias veritatis, commodi placeat omnis sint minima porro et quia nulla autem vitae, rerum est corrupti cum eaque. Placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere excepturi accusantium alias veritatis, commodi placeat omnis sint minima porro et quia nulla autem vitae, rerum est corrupti cum eaque. Placeat
       </div>      
      </div>
-
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam autem omnis eum sint dolorum vel mollitia necessitatibus? Obcaecati fugiat ullam, asperiores impedit quo quod qui quos animi ipsam soluta non.
 
     </div>
   </template>
