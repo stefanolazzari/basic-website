@@ -1,5 +1,5 @@
 <template>
-    <div class="text-white p-20">
+    <div>
 
       <h1 class="p-8">Projects</h1>
 
