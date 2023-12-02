@@ -4,7 +4,7 @@ import About from '../view/About.vue'
 import Cv from '../view/Cv.vue'
 import Projects from '../view/Projects.vue'
 import Contatti from '../view/Contatti.vue'
-import Metodo from '../view/Metodo.vue'
+import Corsi from '../view/Corsi.vue'
 // import { VueRouter } from 'vue-router' 
 // import routes from './routes'
 
@@ -39,9 +39,9 @@ const routes = [
   name: 'Projects',
   component: Projects 
 },
-{ path: '/metodo', 
-  name: 'Metodo',
-  component: Metodo 
+{ path: '/corsi', 
+  name: 'Corsi',
+  component: Corsi 
 },
 ];
 

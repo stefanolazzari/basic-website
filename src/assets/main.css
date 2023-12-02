@@ -5,7 +5,6 @@
 
 .bg-01{
     background-color: rgb(255, 255, 255);
-    background-image: url("P1110315.JPG");
     background-size: cover;
     background-blend-mode:luminosity;
     background-position: bottom center;
@@ -14,7 +13,6 @@
 
 .bg-02{
     background-color: rgb(255, 0, 0);
-    background-image: url("P1110314.JPG");
     background-size: cover;
     background-blend-mode:luminosity;
     background-position: bottom center;
@@ -24,7 +22,6 @@
 
 .bg-03{
     background-color: rgb(0, 255, 0);
-    background-image: url("P1110313.JPG");
     background-size: cover;
     background-blend-mode:luminosity;
     background-position: bottom center;
@@ -33,7 +30,6 @@
 
 .bg-04{
     background-color: rgb(255, 150, 255);
-    background-image: url("P1110316.JPG");
     background-size: cover;
     background-blend-mode:luminosity;
     background-position: bottom center;
@@ -42,7 +38,6 @@
 
 .bg-05{
     background-color: rgb(0, 0, 0);
-    background-image: url("20231104_225210.jpg");
     background-size: cover;
     background-position: bottom center;
     min-height: 100vh;
@@ -50,7 +45,6 @@
 
 .bg-06{
     background-color: rgb(0, 0, 255);
-    background-image: url("P1110309.JPG");
     background-size: cover;
     background-blend-mode:luminosity;
     background-position: bottom center;    

@@ -14,7 +14,7 @@ import HeaderComponent from './components/HeaderComponent.vue'
         'bg-02': this.$route.name == 'About',
         'bg-03': this.$route.name == 'Cv',
         'bg-04': this.$route.name == 'Projects',
-        'bg-05': this.$route.name == 'Metodo',
+        'bg-05': this.$route.name == 'Corsi',
         'bg-06': this.$route.name == 'Contatti'
       }
     ]"
