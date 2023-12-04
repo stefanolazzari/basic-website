@@ -3,29 +3,24 @@ import HeaderComponent from './components/HeaderComponent.vue'
 // import FooterComponent from './components/HeaderComponent.vue'
 
 
+
+document.cookie = 'valore=7800 ; name=stefano; expires=' + new Date(2024,0,1).toUTCString();
+//document.cookie = 'valore=7800';
+console.log(document.cookie);
+
+
 </script>
 
 
 <template>
-  <div
-    :class="[
-      {
-        'bg-01': this.$route.name == 'Home',
-        'bg-02': this.$route.name == 'About',
-        'bg-03': this.$route.name == 'Cv',
-        'bg-04': this.$route.name == 'Projects',
-        'bg-05': this.$route.name == 'Corsi',
-        'bg-06': this.$route.name == 'Contatti'
-      }
-    ]"
-  >
+  <div class="bg-image-01">
     <header>
       
     </header>
 
     <body>
       <HeaderComponent></HeaderComponent>
-      <router-view class="text-white p-10"/>
+      <router-view class="p-10"></router-view>
     </body>
 
     <!-- <footer>
@@ -35,4 +30,7 @@ import HeaderComponent from './components/HeaderComponent.vue'
 </template>
 
 <style scoped>
+
+
+
 </style>
