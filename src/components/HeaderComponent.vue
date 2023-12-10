@@ -21,8 +21,9 @@
             <div class="flex space-x-4">
 
               <div v-for="item in navigation" :key="item.name">
-                <router-link :class="[this.$route.name == item.name ? 'bg-yellow-300 text-black' : 'text-yellow-300 bg-black/70 hover:bg-gray-700 hover:text-black', 'rounded-md px-3 py-2 text-sm font-medium']" :to="item.href">{{item.name}}</router-link>
-             </div>
+                <!-- <router-link :class="[this.$route.name == item.name ? 'bg-yellow-300 text-black' : 'text-yellow-300 bg-black/70 hover:bg-gray-700 hover:text-black', 'rounded-md px-3 py-2 text-sm font-medium']" :to="item.href">{{item.name}}</router-link> -->
+                <router-link class="text-yellow-300 bg-black/70 hover:bg-gray-700 hover:text-pink-500 rounded-md px-3 py-2 text-sm font-medium" active-class="bg-yellow-300 text-gray-900"  :to="item.href">{{item.name}}</router-link>
+              </div>
             
             </div>
           </div>

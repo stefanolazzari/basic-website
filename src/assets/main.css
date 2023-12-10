@@ -4,7 +4,7 @@
 
 
 .bg-image-01{
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color:rgb(255, 255, 255);
     background-image: url("code.png");
     background-blend-mode:saturation;
     min-height: 100vh;
