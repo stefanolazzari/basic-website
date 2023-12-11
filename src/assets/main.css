@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 
+.menu-hl{
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.menu-normal{
+    background-color: rgb(209, 215, 17);
+    color: rgb(164, 10, 10);
+}
+
+
+
 .bg-image-01{
     background-color:rgb(255, 255, 255);
     background-image: url("code.png");
