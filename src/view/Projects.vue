@@ -7,7 +7,7 @@
 
     <h1>Progetti multimediali</h1>
     <div></div>
-    <p class="p-8">è un'installazione interattiva che consente agli utenti di dipingere virtualmente nello spazio utilizzando il loro corpo come pennello. Utilizzando OpenFrameworks e un sensore Kinect, l'installazione cattura i movimenti del corpo dell'utente e li traduce in tratti e colori su uno schermo virtuale.</p>
+    <p class="p-8">è un'installazione interattiva che consente agli utenti di dipingere virtualmente nello spazio. Utilizzando OpenFrameworks e un sensore Kinect, l'installazione cattura i movimenti del corpo dell'utente e li traduce in tratti e colori su uno schermo virtuale.</p>
     <h3>Tecnologie Utilizzate:</h3>
     <ol class="list-disc list-inside p-5"><li><strong>OpenFrameworks:</strong> Una libreria C++ per la creazione di applicazioni creative e interattive.</li><li><strong>Kinect Sensor:</strong> Per rilevare i movimenti e la posizione del corpo dell'utente.</li><li><strong>Grafica 3D:</strong> Per creare uno spazio virtuale in cui gli utenti possono disegnare.</li><li><strong>Suono:</strong> Per aggiungere un elemento audio all'installazione.</li></ol>
     <h3>Funzionalità Principali:</h3>
