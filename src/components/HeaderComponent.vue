@@ -34,7 +34,9 @@
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-4 px-2 pb-3 pt-2">
         <div v-for="item in navigation" :key="item.name">
-          <router-link :class="[this.$route.name == item.name ? 'bg-yellow-300 text-black' : 'text-yellow-300 bg-black/70 hover:bg-gray-700 hover:text-black', 'rounded-md px-3 py-2 text-sm font-medium']" :to="item.href">{{item.name}}</router-link>
+          <!-- <router-link :class="[this.$route.name == item.name ? 'bg-yellow-300 text-black' : 'text-yellow-300 bg-black/70 hover:bg-gray-700 hover:text-black', 'rounded-md px-3 py-2 text-sm font-medium']" :to="item.href">{{item.name}}</router-link> -->
+          <router-link class="text-yellow-300 bg-black/70 hover:bg-gray-700 hover:text-pink-500 rounded-md px-3 py-2 text-sm font-medium" active-class="menu-hl"  :to="item.href">{{item.name}}</router-link>
+
         </div>
       </div>
     </DisclosurePanel>
@@ -49,10 +51,8 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/about', current: false },
+  { name: 'Competenze', href: '/competenze', current: false },
   { name: 'Projects', href: '/projects', current: false },
-  { name: 'CV', href: '/cv', current: false },
-  { name: 'Corsi', href: '/corsi', current: false },
   { name: 'Contatti', href: '/contatti', current: false },
 ]
 </script>

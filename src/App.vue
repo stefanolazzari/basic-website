@@ -4,9 +4,9 @@ import HeaderComponent from './components/HeaderComponent.vue'
 
 
 
-document.cookie = 'valore=7800 ; name=stefano; expires=' + new Date(2024,0,1).toUTCString();
+//document.cookie = 'valore=7800 ; name=stefano; expires=' + new Date(2024,0,1).toUTCString();
 //document.cookie = 'valore=7800';
-console.log(document.cookie);
+//console.log(document.cookie);
 
 
 </script>

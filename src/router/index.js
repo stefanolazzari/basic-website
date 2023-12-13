@@ -1,10 +1,9 @@
 import { createRouter, createMemoryHistory, createWebHistory, createWebHashHistory } from 'vue-router'
 import Home from '../view/Home.vue'
-import About from '../view/About.vue'
+import Competenze from '../view/Competenze.vue'
 import Cv from '../view/Cv.vue'
 import Projects from '../view/Projects.vue'
 import Contatti from '../view/Contatti.vue'
-import Corsi from '../view/Corsi.vue'
 // import { VueRouter } from 'vue-router' 
 // import routes from './routes'
 
@@ -23,13 +22,9 @@ const routes = [
   name: 'Home',
   component: Home 
 },
-  { path: '/about', 
-  name: 'About',
-  component: About 
-},
-{ path: '/contatti', 
-  name: 'Contatti',
-  component: Contatti 
+  { path: '/competenze', 
+  name: 'Competenze',
+  component: Competenze 
 },
 { path: '/cv', 
   name: 'Cv',
@@ -39,9 +34,9 @@ const routes = [
   name: 'Projects',
   component: Projects 
 },
-{ path: '/corsi', 
-  name: 'Corsi',
-  component: Corsi 
+{ path: '/contatti', 
+  name: 'Contatti',
+  component: Contatti 
 },
 ];
 
