@@ -4,6 +4,7 @@ import Competenze from '../view/Competenze.vue'
 import Cv from '../view/Cv.vue'
 import Projects from '../view/Projects.vue'
 import Contatti from '../view/Contatti.vue'
+import Corsi from '../view/Corsi.vue'
 // import { VueRouter } from 'vue-router' 
 // import routes from './routes'
 
@@ -37,6 +38,10 @@ const routes = [
 { path: '/contatti', 
   name: 'Contatti',
   component: Contatti 
+},
+{ path: '/corsi', 
+  name: 'Corsi',
+  component: Corsi 
 },
 ];
 
