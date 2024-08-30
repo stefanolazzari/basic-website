@@ -1,8 +1,8 @@
 {
-  "name": "website",
+  "name": "basic-website",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://stefanolazzari.github.io/website/",
+  "homepage": "https://stefanolazzari.github.io/basic-website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
